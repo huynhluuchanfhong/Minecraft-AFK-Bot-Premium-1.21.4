@@ -1,0 +1,15 @@
+{
+    "name": "minecraft-afk-bot",
+    "version": "1.0.0",
+    "description": "A bot for automating tasks and AFK functionality in a Minecraft server.",
+    "main": "script.js",
+    "scripts": {
+      "start": "node script.js"
+    },
+    "dependencies": {
+      "mineflayer": "^4.5.0",
+      "mineflayer-pathfinder": "^2.0.0"
+    },
+    "author": "MrLacko",
+    "license": "ISC"
+  }
