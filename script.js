@@ -10,11 +10,11 @@ createBot();
 
 function createBot() {
   const bot = mineflayer.createBot({
-    host: 'ipserver', // Replace with your server's IP or hostname
-    port: 8080,                  // Replace with your server's port if different
+    host: 'windy.pikamc.vn', // Replace with your server's IP or hostname
+    port: 25222,                  // Replace with your server's port if different
     username: "microsoftEmail", // Use your email for Microsoft accounts
     auth: 'microsoft',           // Specify 'microsoft' for Microsoft accounts
-    version: false,              // Ensure this matches your Minecraft version
+    version: 1.21.4,              // Ensure this matches your Minecraft version
     debug: true,                 // Enable debug logs
     viewDistance: 'far',         // Ensure the bot gets complete packets
     hideErrors: false            // Show all error messages
